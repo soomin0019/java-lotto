@@ -9,7 +9,7 @@ public class Application {
 
         Lotto lotto = new Lotto();
 
-        lotto.Play();
+        lotto.Start();
     }
 }
 

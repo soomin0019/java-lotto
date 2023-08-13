@@ -17,6 +17,7 @@ public class Lotto {
     final int lotteryPrice = 1000;
     List<Integer> correctLottoNumber = new ArrayList<>();
     final int[] rankNumber = new int[7];
+
     //public static List<Integer> lottoNumbers()
 
 //    public Lotto(List<Integer> lotteryNumbers) {
@@ -25,7 +26,7 @@ public class Lotto {
 //    }
 
     // TODO: 추가 기능 구현
-    void Play(){
+    void Start(){
         buyLotteryMoney();
         randomLotteryNumbers();
         inputLotteryNumber();
